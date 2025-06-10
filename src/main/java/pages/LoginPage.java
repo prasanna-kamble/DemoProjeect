@@ -26,8 +26,4 @@ public class LoginPage {
     public void clickLogin() {
         driver.findElement(loginButton).click();
     }
-
-    public boolean isLoginSuccessful() {
-        return driver.getCurrentUrl().contains("inventory.html");
-    }
 }
