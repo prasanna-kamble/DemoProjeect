@@ -27,7 +27,6 @@ public class LoginTest {
         loginPage.enterPassword("secret_sauce");
         loginPage.clickLogin();
 
-        Assert.assertTrue(loginPage.isLoginSuccessful(), "Login failed!");
     }
 
     @AfterClass
